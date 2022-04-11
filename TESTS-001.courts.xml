@@ -1,0 +1,538 @@
+<testsuite name="001.courts.QAAR_1243_ACCUR_Courts_Category" tests="9" errors="0" failures="1" skipped="0" time="792.136905" timestamp="2022-04-06T09:00:08.412369" hostname="docker-dind-action-runner-boca-nz9ff-5tl59"><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;Federal Civil Court Records&quot; Search from Courts Categorgy -- @1.1 Regression" status="passed" time="53.37163"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "Federal Civil Court Records" Search from Courts Categorgy -- @1.1 Regression
+    When ACCUR_"TC001": I click "Federal Civil Court Records" search link ... passed in 2.942s
+    And ACCUR_"TC001": I populate "Federal Civil Court Records" search fields from Courts Category with the following data then validate search result and reports ... passed in 50.429s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+verify_report SMITH ** Smith
+MULTI DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+Report loop
+0
+1
+Actual Report Name: Federal Civil Court Report
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+0
+verify
+2
+verify counter0
+ try verify_report_content: SMITH
+ try verify_report_content: TRUE
+# of windows: 2
+switch
+
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;Federal Criminal Court Records&quot; Search from Courts Categorgy -- @1.2 Regression" status="passed" time="53.987197"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "Federal Criminal Court Records" Search from Courts Categorgy -- @1.2 Regression
+    When ACCUR_"TC002": I click "Federal Criminal Court Records" search link ... passed in 2.942s
+    And ACCUR_"TC002": I populate "Federal Criminal Court Records" search fields from Courts Category with the following data then validate search result and reports ... passed in 51.046s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+verify_report COOK
+SINGLE DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+0
+1
+Actual Report Name: Federal Criminal Court Report
+ELEMENT DOES NOT EXIST
+0
+ try verify_report_content: COOK
+ try verify_report_content: TRUE
+# of windows: 2
+
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;Foreclosures&quot; Search from Courts Categorgy -- @1.3 Regression" status="passed" time="208.076517"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "Foreclosures" Search from Courts Categorgy -- @1.3 Regression
+    When ACCUR_"TC003": I click "Foreclosures" search link ... passed in 2.985s
+    And ACCUR_"TC003": I populate "Foreclosures" search fields from Courts Category with the following data then validate search result and reports ... passed in 205.091s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+verify_report 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512 ** JOHN DESTRY SMITH ** 14115 PERDIDO KEY DR
+MULTI DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+Report loop
+0
+3
+Actual Report Name: Address Report
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+1
+click_purchase_request_button
+verify
+3
+verify counter0
+ try verify_report_content: 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512
+ try verify_report_content: TRUE
+# of windows: 2
+switch
+1
+3
+Actual Report Name: Foreclosure Report
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+0
+verify
+3
+verify counter0
+ try verify_report_content: 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512
+ try verify_report_content: TRUE
+# of windows: 2
+switch
+2
+3
+Actual Report Name: Other Reports
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+5
+COUNTER: 1
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[1]
+REPORT NAME: Summary Report
+verify
+3
+verify counter0
+ try verify_report_content: 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512
+ try verify_report_content: REPORT_FALSE
+verify counter1
+ try verify_report_content: JOHN DESTRY SMITH
+ try verify_report_content: TRUE
+COUNTER: 2
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[2]
+REPORT NAME: Asset Report
+verify
+3
+verify counter0
+ try verify_report_content: 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512
+ try verify_report_content: TRUE
+COUNTER: 3
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[3]
+click_purchase_request_button
+REPORT NAME: Finder Report
+verify
+3
+verify counter0
+ try verify_report_content: 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512
+ try verify_report_content: REPORT_FALSE
+verify counter1
+ try verify_report_content: JOHN DESTRY SMITH
+ try verify_report_content: TRUE
+COUNTER: 4
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[4]
+click_purchase_request_button
+REPORT NAME: Comprehensive Report
+verify
+3
+verify counter0
+ try verify_report_content: 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512
+ try verify_report_content: REPORT_FALSE
+verify counter1
+ try verify_report_content: JOHN DESTRY SMITH
+ try verify_report_content: TRUE
+COUNTER: 5
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[5]
+click_purchase_request_button
+REPORT NAME: Custom Comprehensive Report
+verify
+3
+verify counter0
+ try verify_report_content: 14115 PERDIDO KEY DR, PENSACOLA , FL 32507-9512
+ try verify_report_content: REPORT_FALSE
+verify counter1
+ try verify_report_content: JOHN DESTRY SMITH
+ try verify_report_content: TRUE
+# of windows: 2
+switch
+
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;Marriages/Divorces&quot; Search from Courts Categorgy -- @1.5 Regression" status="passed" time="28.373632"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "Marriages/Divorces" Search from Courts Categorgy -- @1.5 Regression
+    When ACCUR_"TC005": I click "Marriages/Divorces" search link ... passed in 2.959s
+    And ACCUR_"TC005": I populate "Marriages/Divorces" search fields from Courts Category with the following data then validate search result and reports ... passed in 25.415s
+
+@scenario.end
+--------------------------------------------------------------------------------
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;National Motor Vehicle Accidents&quot; Search from Courts Categorgy -- @1.6 Regression" status="failed" time="112.393672"><failure type="AssertionError" message="">
+<![CDATA[
+Failing step: And ACCUR_"TC006": I populate "National Motor Vehicle Accidents" search fields from Courts Category with the following data then validate search result and reports ... failed in 109.450s
+Location: features/ACCUR/regression/001/courts.feature:7
+Traceback (most recent call last):
+  File "/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/model.py", line 1329, in run
+    match.run(runner.context)
+  File "/opt/hostedtoolcache/Python/3.9.12/x64/lib/python3.9/site-packages/behave/matchers.py", line 98, in run
+    self.func(context, *args, **kwargs)
+  File "steps/SD_Courts.py", line 283, in step_impl
+    PO_Common.testlogger("FAIL", "Report Validation. | " + settings.fail_message)
+  File "/runner/_work/bdd_test_accurint/bdd_test_accurint/pages/PO_Common.py", line 3987, in testlogger
+    assert False
+AssertionError
+
+Captured stdout:
+checkbox:customCheckbox
+verify_report 2130 ARTHUR ST, HOLLYWOOD , FL 33020-3036 
+SINGLE DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+0
+2
+Actual Report Name: Address Report
+ELEMENT DOES NOT EXIST
+1
+click_purchase_request_button
+ try verify_report_content: 2130 ARTHUR ST, HOLLYWOOD , FL 33020-3036 
+ try verify_report_content: TRUE
+# of windows: 2
+1
+2
+Actual Report Name: Florida Accident Report
+ELEMENT DOES NOT EXIST
+0
+ try verify_report_content: 2130 ARTHUR ST, HOLLYWOOD , FL 33020-3036 
+ try verify_report_content: TRUE
+# of windows: 2
+checkbox:customCheckbox grey_checkmark
+verify_report  MS BARBARA SMITH ** State of Florida Accident Report
+MULTI DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+Report loop
+0
+1
+Actual Report Name: Florida Accident Report
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+0
+verify
+2
+verify counter0
+ try verify_report_content: MS BARBARA SMITH
+ try verify_report_content: REPORT_FALSE
+verify counter1
+ try verify_report_content: State of Florida Accident Report
+ try verify_report_content: REPORT_FALSE
+FAIL: Report verification for: [Florida Accident Report] failed. Either one of the Data in :  MS BARBARA SMITH ** State of Florida Accident Report is not existing on the report: Florida Accident Report
+SCENARIO_NUMBER:Scenario_001 TEST_CASE_ID:TC006
+ENVIRONMENT:CERT VERTICAL:HEA URL:https://securedev.accurint.com/app/bps/main
+PATH: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages
+SS: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages/screenshots/SS_2022_04_06_08_54_18.png
+
+FAIL: Report Validation. | TEST FAILED: Report verification for: [Florida Accident Report] failed. Either one of the Data in :  MS BARBARA SMITH ** State of Florida Accident Report is not existing on the report: Florida Accident Report
+SCENARIO_NUMBER:Scenario_001 TEST_CASE_ID:TC006
+ENVIRONMENT:CERT VERTICAL:HEA URL:https://securedev.accurint.com/app/bps/main
+PATH: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages
+SS: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages/screenshots/SS_2022_04_06_08_54_18.png
+
+Captured logging:
+INFO:root:INFO: FCRA Selected: False
+INFO:root:INFO: Running National Motor Vehicle Accidents Search...
+INFO:root:INFO: Running search instance #[1] for National Motor Vehicle Accidents Search...
+INFO:root:INFO: 33030
+INFO:root:INFO: TITLE: ACCIDENTS SEARCH
+INFO:root:INFO: No Roxie error
+INFO:root:INFO: HILL is existing on the search result table.
+INFO:root:INFO: Report Validation
+INFO:root:INFO: verify_report
+INFO:root:INFO: verify_report: Single Data
+INFO:root:INFO: Main report title: Comprehensive Address Report Options
+INFO:root:INFO: No Roxie error
+INFO:root:INFO: Report verification for: [Address Report|Comprehensive Address Report] passed.
+INFO:root:INFO: Main report title: Accident Report
+INFO:root:INFO: No Roxie error
+INFO:root:INFO: Report verification for: [Florida Accident Report|Accident Report] passed.
+INFO:root:INFO: Report Validation passed.
+INFO:root:INFO: Running search instance #[2] for National Motor Vehicle Accidents Search...
+INFO:root:INFO: TITLE: ACCIDENTS SEARCH
+INFO:root:INFO: No Roxie error
+INFO:root:INFO: SMITH is existing on the search result table.
+INFO:root:INFO: Report Validation
+INFO:root:INFO: verify_report
+INFO:root:INFO: verify_report: Multi Data
+INFO:root:INFO: Main report title: Accident Report
+INFO:root:INFO: No Roxie error
+INFO:root:INFO: Checking data [MS BARBARA SMITH] in Accident Report report
+WARNING:root:WARNING: MS BARBARA SMITH is not found
+INFO:root:INFO: Checking data [State of Florida Accident Report] in Accident Report report
+WARNING:root:WARNING: State of Florida Accident Report is not found
+ERROR:root:FAIL: Report verification for: [Florida Accident Report] failed. Either one of the Data in :  MS BARBARA SMITH ** State of Florida Accident Report is not existing on the report: Florida Accident Report
+ERROR:root:SCENARIO_NUMBER:Scenario_001 TEST_CASE_ID:TC006
+ERROR:root:ENVIRONMENT:CERT VERTICAL:HEA URL:https://securedev.accurint.com/app/bps/main
+ERROR:root:FAIL: Report Validation. | TEST FAILED: Report verification for: [Florida Accident Report] failed. Either one of the Data in :  MS BARBARA SMITH ** State of Florida Accident Report is not existing on the report: Florida Accident Report
+ERROR:root:SCENARIO_NUMBER:Scenario_001 TEST_CASE_ID:TC006
+ERROR:root:ENVIRONMENT:CERT VERTICAL:HEA URL:https://securedev.accurint.com/app/bps/main]]>
+</failure><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "National Motor Vehicle Accidents" Search from Courts Categorgy -- @1.6 Regression
+    When ACCUR_"TC006": I click "National Motor Vehicle Accidents" search link ... passed in 2.944s
+    And ACCUR_"TC006": I populate "National Motor Vehicle Accidents" search fields from Courts Category with the following data then validate search result and reports ... failed in 109.450s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+checkbox:customCheckbox
+verify_report 2130 ARTHUR ST, HOLLYWOOD , FL 33020-3036 
+SINGLE DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+0
+2
+Actual Report Name: Address Report
+ELEMENT DOES NOT EXIST
+1
+click_purchase_request_button
+ try verify_report_content: 2130 ARTHUR ST, HOLLYWOOD , FL 33020-3036 
+ try verify_report_content: TRUE
+# of windows: 2
+1
+2
+Actual Report Name: Florida Accident Report
+ELEMENT DOES NOT EXIST
+0
+ try verify_report_content: 2130 ARTHUR ST, HOLLYWOOD , FL 33020-3036 
+ try verify_report_content: TRUE
+# of windows: 2
+checkbox:customCheckbox grey_checkmark
+verify_report  MS BARBARA SMITH ** State of Florida Accident Report
+MULTI DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+Report loop
+0
+1
+Actual Report Name: Florida Accident Report
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+0
+verify
+2
+verify counter0
+ try verify_report_content: MS BARBARA SMITH
+ try verify_report_content: REPORT_FALSE
+verify counter1
+ try verify_report_content: State of Florida Accident Report
+ try verify_report_content: REPORT_FALSE
+FAIL: Report verification for: [Florida Accident Report] failed. Either one of the Data in :  MS BARBARA SMITH ** State of Florida Accident Report is not existing on the report: Florida Accident Report
+SCENARIO_NUMBER:Scenario_001 TEST_CASE_ID:TC006
+ENVIRONMENT:CERT VERTICAL:HEA URL:https://securedev.accurint.com/app/bps/main
+PATH: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages
+SS: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages/screenshots/SS_2022_04_06_08_54_18.png
+
+FAIL: Report Validation. | TEST FAILED: Report verification for: [Florida Accident Report] failed. Either one of the Data in :  MS BARBARA SMITH ** State of Florida Accident Report is not existing on the report: Florida Accident Report
+SCENARIO_NUMBER:Scenario_001 TEST_CASE_ID:TC006
+ENVIRONMENT:CERT VERTICAL:HEA URL:https://securedev.accurint.com/app/bps/main
+PATH: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages
+SS: /runner/_work/bdd_test_accurint/bdd_test_accurint/pages/screenshots/SS_2022_04_06_08_54_18.png
+
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;Official Records&quot; Search from Courts Categorgy -- @1.7 Regression" status="passed" time="53.816418"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "Official Records" Search from Courts Categorgy -- @1.7 Regression
+    When ACCUR_"TC007": I click "Official Records" search link ... passed in 3.027s
+    And ACCUR_"TC007": I populate "Official Records" search fields from Courts Category with the following data then validate search result and reports ... passed in 50.790s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+verify_report GROSSMAN
+SINGLE DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+0
+1
+Actual Report Name: Official Records Report
+ELEMENT DOES NOT EXIST
+0
+ try verify_report_content: GROSSMAN
+ try verify_report_content: TRUE
+# of windows: 2
+
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;Bankruptcy&quot; Search from Courts Categorgy -- @1.10 Regression" status="passed" time="49.671214"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "Bankruptcy" Search from Courts Categorgy -- @1.10 Regression
+    When ACCUR_"TC010": I click "Bankruptcy" search link ... passed in 2.863s
+    And ACCUR_"TC010": I populate "Bankruptcy" search fields from Courts Category with the following data then validate search result and reports ... passed in 46.808s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+verify_report ANTIN PACIFIC CONSTRUCTION INC ** 146 W CYPRESS AVE STE 103, BURBANK , CA 91502-1706
+MULTI DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+Report loop
+0
+1
+Actual Report Name: Bankruptcy Report
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+1
+click_purchase_request_button
+verify
+2
+verify counter0
+ try verify_report_content: ANTIN PACIFIC CONSTRUCTION INC
+ try verify_report_content: TRUE
+# of windows: 2
+switch
+
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;State &amp; Local Criminal Records&quot; Search from Courts Categorgy -- @1.11 Regression" status="passed" time="166.682828"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "State & Local Criminal Records" Search from Courts Categorgy -- @1.11 Regression
+    When ACCUR_"TC011": I click "State & Local Criminal Records" search link ... passed in 2.949s
+    And ACCUR_"TC011": I populate "State & Local Criminal Records" search fields from Courts Category with the following data then validate search result and reports ... passed in 163.733s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+verify_report MATT J ISENBART ** 7728 W 1ST ST, NEWTON , KS 67114-8987
+MULTI DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+Report loop
+0
+2
+Actual Report Name: Other Reports
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+5
+COUNTER: 1
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[1]
+REPORT NAME: Summary Report
+verify
+2
+verify counter0
+ try verify_report_content: MATT J ISENBART
+ try verify_report_content: TRUE
+COUNTER: 2
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[2]
+REPORT NAME: Asset Report
+verify
+2
+verify counter0
+ try verify_report_content: MATT J ISENBART
+ try verify_report_content: TRUE
+COUNTER: 3
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[3]
+click_purchase_request_button
+REPORT NAME: Finder Report
+verify
+2
+verify counter0
+ try verify_report_content: MATT J ISENBART
+ try verify_report_content: TRUE
+COUNTER: 4
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[4]
+click_purchase_request_button
+REPORT NAME: Comprehensive Report
+verify
+2
+verify counter0
+ try verify_report_content: MATT J ISENBART
+ try verify_report_content: TRUE
+COUNTER: 5
+(//input[@value="Request Report"]|//input[@value="Purchase Report"])[5]
+click_purchase_request_button
+REPORT NAME: Custom Comprehensive Report
+verify
+2
+verify counter0
+ try verify_report_content: MATT J ISENBART
+ try verify_report_content: TRUE
+# of windows: 2
+switch
+1
+2
+Actual Report Name: Criminal Report
+click
+switch
+ELEMENT DOES NOT EXIST
+report type
+1
+click_purchase_request_button
+verify
+2
+verify counter0
+ try verify_report_content: MATT J ISENBART
+ try verify_report_content: TRUE
+# of windows: 2
+switch
+
+]]>
+</system-out></testcase><testcase classname="001.courts.QAAR_1243_ACCUR_Courts_Category" name="QAAR_1243_ACCUR_User should be able to execute the &quot;State Civil Courts&quot; Search from Courts Categorgy -- @1.12 Regression" status="passed" time="53.564406"><system-out>
+<![CDATA[
+@scenario.begin
+
+  @Scenario_001 @accurint @regression
+  Scenario Outline: QAAR_1243_ACCUR_User should be able to execute the "State Civil Courts" Search from Courts Categorgy -- @1.12 Regression
+    When ACCUR_"TC012": I click "State Civil Courts" search link ... passed in 2.973s
+    And ACCUR_"TC012": I populate "State Civil Courts" search fields from Courts Category with the following data then validate search result and reports ... passed in 50.591s
+
+@scenario.end
+--------------------------------------------------------------------------------
+
+Captured stdout:
+verify_report 198 BROADWAY, KISSIMMEE , FL 34741-5714
+SINGLE DATA
+['Finder Report', 'Comprehensive Report', 'Virtual Identity Report', 'Entitlements Report', 'Associates', 'Business Link Report', 'Custom Comprehensive Report', 'Asset Report', 'Summary Report', 'Neighbors', 'Relatives, Neighbors & Associates', 'Relatives', 'People at Work', 'Death Report', 'Bankruptcy Report', 'Full Text', 'Location Report', 'Criminal Report', 'Foreclosure Report', 'Federal Criminal Court Report', 'Federal Civil Court Report', 'Florida Accident Report', 'Official Records Report', 'Sexual Offenders Report', 'Workplace Report', 'FAA Pilot Report', 'ABMS Report', 'Comprehensive Health Care Business Report', 'Custom Comprehensive Health Care Business Report', 'NPI Report', 'Provider Sanction Report', 'Provider License Report', 'Business Link Report', 'Business Report', 'Bus. Credit Report', 'Address Report', 'Corp. Report', 'FEIN Report', 'Fictitious Business Name Report', 'National UCC Filings Report', 'Phone Detail Report', 'OSHA Incident Report', 'Contact Card Report', 'Setup Person Alert', 'Civil Courts Report', 'Criminal Report', 'Other Reports', 'Motor Vehicle Report', 'Aircraft Report', 'Property Report', 'Watercraft Report', 'Delaware Corp. Report', 'Lien Report', 'Business Contact Card Report', 'Judgment and Liens Report', 'Business Inview Report', 'Business Inview Credit Report', 'Experian Bus. Credit Report', 'Workplace Locator', 'People at Work Locator', 'All Identities for this Email Address', 'PACER Docket', 'Report']
+0
+1
+Actual Report Name: Civil Courts Report
+ELEMENT DOES NOT EXIST
+0
+ try verify_report_content: 198 BROADWAY, KISSIMMEE , FL 34741-5714
+ try verify_report_content: TRUE
+# of windows: 2
+
+]]>
+</system-out></testcase></testsuite>
